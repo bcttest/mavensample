@@ -60,12 +60,7 @@
     </plugins>
   </build>
   
-  <server>
-	<id>archiva.test</id>
-	<username>admin</username>
-	<password>test@123</password>
-</server>
-  <distributionManagement>
+ <distributionManagement>
     <snapshotRepository>
       <id>test</id>
       <url>http://192.168.1.71:8082/repository/test/</url>
