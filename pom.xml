@@ -9,7 +9,11 @@
 
   <name>Simple Maven example</name>
   <url>https://jitpack.io/#jitpack/maven-simple/0.1</url>
-
+<server>
+	<id>archiva.test</id>
+	<username>admin</username>
+	<password>test@123</password>
+</server>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -20,11 +24,6 @@
   </dependencies>
   
   <build>
-<server>
-	<id>test</id>
-	<username>admin</username>
-	<password>test@123</password>
-</server>
     
     <plugins>
     
