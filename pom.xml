@@ -61,10 +61,10 @@
   </build>
   
   <server>
-			<id>archiva.test</id>
-			<username>admin</username>
-			<password>test@123</password>
-		</server>
+	<id>archiva.test</id>
+	<username>admin</username>
+	<password>test@123</password>
+</server>
   <distributionManagement>
     <snapshotRepository>
       <id>test</id>
