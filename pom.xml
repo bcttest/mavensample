@@ -59,5 +59,44 @@
       </plugin>
     </plugins>
   </build>
+  
+  <server>
+			<id>archiva.test</id>
+			<username>admin</username>
+			<password>test@123</password>
+		</server>
+  <distributionManagement>
+    <snapshotRepository>
+      <id>test</id>
+      <url>http://192.168.1.71:8082/repository/test/</url>
+    </snapshotRepository>
+  </distributionManagement>
+
+  <repositories>
+    <repository>
+      <id>test</id>
+      <name>test</name>
+      <url>http://192.168.1.71:8082/repository/test/</url>
+      <releases>
+        <enabled>true</enabled>
+      </releases>
+      <snapshots>
+        <enabled>true</enabled>
+      </snapshots>
+    </repository>
+  </repositories>
+  <pluginRepositories>
+    <pluginRepository>
+      <id>test</id>
+      <name>test</name>
+      <url>http://192.168.1.71:8082/repository/test/</url>
+      <releases>
+        <enabled>true</enabled>
+      </releases>
+      <snapshots>
+        <enabled>true</enabled>
+      </snapshots>
+    </pluginRepository>
+  </pluginRepositories>
 
 </project>
