@@ -20,6 +20,12 @@
   </dependencies>
   
   <build>
+<server>
+	<id>test</id>
+	<username>admin</username>
+	<password>test@123</password>
+</server>
+    
     <plugins>
     
       <plugin>
